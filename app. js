@@ -1,4 +1,2 @@
-const availableScreenWidth = window.screen.availWidth;
-const availableScreenHeight = window.screen.availHeight;
-alert("availableScreenWidth");
-alert("availableScreenHeight");
+
+alert("Я окно оповещения!");
