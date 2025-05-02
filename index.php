@@ -8,16 +8,8 @@
     <link type="text/css" rel="stylesheet" href="style.css">
 </head>
 <body>
-    <?php 
-    ob_start();
-// выводим информацию
+    <?php
 echo "hello world";
-// функция session_start() будет работать корректно
-session_start();
-// сохраняем всё что есть в буфере в переменную, на данный момент там только `hello world`
-$content = ob_get_contents();
-// отключаем и очищаем буфер
-ob_end_clean();
    ?>
     <header>
 <p>Good nutrition</p>
